@@ -2,9 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ticket.modernland.co.id">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"></uses-permission>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -13,11 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.NewTicketActivity"></activity>
+        <activity android:name=".activity.HomeAdminActivity"></activity>
+        <activity android:name=".activity.NewTicketActivity" />
         <activity android:name=".activity.HomeVendorActivity" />
-        <activity android:name=".activity.HomeUserActivity">
-
-        </activity>
+        <activity android:name=".activity.HomeUserActivity"></activity>
         <activity
             android:name=".activity.BasicActivity"
             android:label="@string/title_activity_basic"
